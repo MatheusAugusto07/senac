@@ -1,0 +1,8 @@
+ quantidadesDecavalos, totalferraduras;
+
+Console.WriteLine("Digite a quantidade de cavalos comprados");
+quantidadesDecavalos = Convert.ToInt32(Console.ReadLine());
+
+totalferraduras = quantidadesDecavalos * 4;
+
+Console.WriteLine("Serão nessesarios " + totalferraduras + " ferraduras para equipar todos os cavalos");
