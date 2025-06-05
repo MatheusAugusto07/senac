@@ -1,0 +1,11 @@
+int Preçolitro, valorlitro, litos, valorpago;
+
+Console.WriteLine("Digite o preço da gasolina");
+Preçolitro = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Digite o valor que deseja abastecer");
+valorpago = Convert.ToInt32(Console.ReadLine());
+
+litos = valorpago / Preçolitro;
+
+Console.WriteLine("Você consegiu colocar " + litos + " litros no tanque");
